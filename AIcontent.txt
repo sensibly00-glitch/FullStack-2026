@@ -1,0 +1,49 @@
+Export all of my stored memories and any context you've learned about me from past conversations. Preserve my words verbatim where possible, especially for instructions and preferences.
+
+## Categories (output in this order):
+
+1. **Instructions**: Rules I've explicitly asked you to follow going forward — tone, format, style, "always do X", "never do Y", and corrections to your behavior. Only include rules from stored memories, not from conversations.
+
+2. **Identity**: Name, age, location, education, family, relationships, languages, and personal interests.
+
+3. **Career**: Current and past roles, companies, and general skill areas.
+
+4. **Projects**: Projects I meaningfully built or committed to. Ideally ONE entry per project. Include what it does, current status, and any key decisions. Use the project name or a short descriptor as the first words of the entry.
+
+5. **Preferences**: Opinions, tastes, and working-style preferences that apply broadly.
+
+## Format:
+
+Use section headers for each category. Within each category, list one entry per line, sorted by oldest date first. Format each line as:
+
+[YYYY-MM-DD] - Entry content here.
+
+If no date is known, use [unknown] instead.
+
+## Output:
+- Wrap the entire export in a single code block for easy copying.
+- After the code block, state whether this is the complete set or if more remain.
+
+## ===================AI 프롬프트 결과물 ============
+
+1. Instructions
+[unknown] - Always structure multi-day travel itineraries and schedules as Markdown tables.
+
+2. Identity
+[unknown] - Name: SoO Lee
+[unknown] - Location: Seoul, South Korea
+[unknown] - Personal interests: Specialty coffee, green/roasted coffee beans (e.g., Costa Rica Tarrazú La Pastora), Q Grader certifications, and coffee trend analysis.
+
+3. Career
+[unknown] - Role: 15+ years experienced developer, Full-Stack / Back-end engineer.
+[unknown] - Tech Stack & Skill Areas: Python, FastAPI, Pydantic, Node.js, React, Next.js, Supabase, PostgreSQL/SQL, REST APIs, gRPC, Git/GitHub, Docker/Linux server administration, and AI/LLM application development.
+
+4. Projects
+[unknown] - Seoul Commercial Area Analysis Dashboard (서울 상권 분석 대시보드): Built an interactive dashboard visualizing commercial area and market data across Seoul (including Gangnam 3-gu). Designed architecture, setup backend services, and built frontend components.
+[unknown] - Specialty Coffee Landing Page & Specialty Coffee Startup: Developed a React-based landing page for a specialty coffee business, focusing on branding, UX models, and online class offerings.
+[unknown] - AX (AI Experience) Full-Stack Starter Kit: Created starter projects and evaluation metrics combining AI services with backend APIs and LLM integration.
+
+5. Preferences
+[unknown] - Coding Preferences: Prefers clean modular code architecture, Pydantic model configurations for request validation, explicit DTOs for request/response handling, and proper API error layer segregation.
+[unknown] - UI/UX Preferences: Prefers modern, dark-mode compatible component libraries (such as shadcn/ui and Tailwind CSS) and clean skeleton loading patterns.
+[unknown] - Workspace & Tools: Uses macOS, VS Code, Git/GitHub, and Terminal workflow shortcuts.
